@@ -48,7 +48,7 @@ body {
   border-top-right-radius: 14px;
 }
 
-.clash-card__image--barbarian img {
+.clash-card__image--econo1 img {
   width: 400px;
   top: -20px;
   left: -50px;
@@ -56,7 +56,7 @@ body {
 
 }
 
-.clash-card__image--archer img {
+.clash-card__image--econo2 img {
   width: 400px;
   top: -20px;
   left: -50px;
@@ -64,7 +64,7 @@ body {
 
 }
 
-.clash-card__image--giant img {
+.clash-card__image--econo3 img {
   width: 400px;
   top: -20px;
   left: -50px;
@@ -72,7 +72,7 @@ body {
 
 }
 
-.clash-card__image--goblin img {
+.clash-card__image--econo4 img {
   width: 400px;
   top: -20px;
   left: -50px;
@@ -80,7 +80,7 @@ body {
 
 }
 
-.clash-card__image--wizard img {
+.clash-card__image--econo5 img {
   width: 400px;
   top: -20px;
   left: -50px;
