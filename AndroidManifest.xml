@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gim_yongjun.card_news">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme">
+        <!-- splash activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+         </activity>
+
+        <activity android:name=".MainActivity"/>
+
+        <activity android:name=".Politics" />
+        <activity android:name=".Social" />
+        <activity android:name=".Economic" />
+        <activity android:name=".IT" />
+        <activity android:name=".Live" />
+        <activity android:name=".Global" />
+        <activity android:name=".Enter" />
+        <activity android:name=".DialogforSelect" />
+        <activity android:name=".E_Daily" />
+        <activity android:name=".Han" />
+        <activity android:name=".News" />
+        <activity android:name=".Yeon" />
+        <activity android:name=".Sbs" />
+        <activity android:name=".Jeon" />
+        <activity android:name=".Jo" />
+        <activity android:name=".Article" />
+        <activity android:name=".Corp" />
+        <activity android:name=".Licence"></activity>
+    </application>
+
+</manifest>
