@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+  margin-top: 30px;
+}
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  width: 300px;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  z-index: 9999;
+}
+
+.clash-card__image {
+  position: relative;
+  text-align: center;
+  height: 500px;
+  width: 350px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.clash-card__image--inter1 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+
+}
+
+.clash-card__image--inter2 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+
+}
+
+.clash-card__image--inter3 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+
+}
+
+.clash-card__image--inter4 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+
+}
+
+.clash-card__image--inter5 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--inter6 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--inter7 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--inter8 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--inter9 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--inter10 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--inter11 img {
+  width: 400px;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 20px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 20px;
+  z-index: 999;
+}
