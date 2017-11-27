@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="corp">
+        <item >이데일리</item>
+        <item >한겨레</item>
+        <item >뉴스웨이</item>
+        <item >연합뉴</item>
+        <item >SBS</item>
+        <item >전자신문</item>
+        <item >조선일보</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genre">
+        <item >정치</item>
+        <item >사회</item>
+        <item >경제</item>
+        <item >IT</item>
+        <item >생활</item>
+        <item >세계</item>
+        <item >문화</item>
+    </string-array>
+
+</resources>
