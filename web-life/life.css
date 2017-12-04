@@ -4,14 +4,18 @@
 }
 
 body {
+/*
   background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
   background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
   background-size: cover;
+*/
+  background-color: black;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
   margin-top: 30px;
 }
+
 
 .slide-container {
   margin: auto;
@@ -19,6 +23,32 @@ body {
   height: 500px;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .slide-container {
+    width: 300px;
+    height: 300px;
+  }
+  .slide-container img{
+    height: 300px;
+    width: 300px !important;
+    top: 0 !important;
+    left: 5px !important;
+  }
+  .slick-prev {
+    left: -25px !important; 
+    top: 190px;
+    z-index: 999;
+  }
+
+  .slick-next {
+    right: -25px !important;
+    top: 190px;
+    z-index: 999;
+  }
+
+}
+
 
 .wrapper {
   padding-top: 40px;
@@ -56,14 +86,14 @@ body {
 
 .clash-card__image--life2 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life3 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
@@ -77,63 +107,63 @@ body {
 
 .clash-card__image--life5 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life6 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life7 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life8 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life9 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life10 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life11 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life12 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
 .clash-card__image--life13 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
