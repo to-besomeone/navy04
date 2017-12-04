@@ -9,7 +9,7 @@
   
   // On before slide change
   slideContainer.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-    $('.slick-active').find('.clash-card img').fadeOut(5000);
+    $('.slick-active').find('.clash-card img').fadeOut(3500);
   });
   
   // On after slide change
