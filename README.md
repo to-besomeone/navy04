@@ -1,3 +1,9 @@
+navy04.apk 를 다운받아 이용해 주십시오.
+======
+
+
+
+
 1  Web 개발자 매뉴얼
 ===============
 *********
@@ -39,3 +45,73 @@
   2  App 개발자 매뉴얼
   ========
   ********
+### 1. 사양
+***
+- Nougat 7.0 이상부터 지원
+
+### 2. xml
+- windowBackground(value/style.xml)
+<pre><code> 로딩화면 이미지 지정 </code></pre>
+- string.xml
+<pre><code> AlertDialog의 목록을 구성 </code></pre>
+- my_gridview.xml
+<pre><code> * 그리드뷰의 모양 지정
+ * 이미지와 텍스트가 같은 칸에 들어가도록 지정 </code></pre>
+ - activity_dialogfor_select.xml
+ <pre><code> * 주제별을 제외한 나머지(언론사별, 설정)에 들어가는 Dialogue를 만듦.
+ * customAlertdialog 와는 다르게 버튼 형식으로 들어감.
+ * 이미지 등록도 가능 (설정에 구현) </code></pre>
+### 3. Java
+- DialogforSelect.java
+<pre><code> WindowManager.LayoutParams lpWindow_inf = new WindowManager.LayoutParams();
+        lpWindow_inf.flags = WindowManager.LayoutParams.FLAG_DIM_BEHIND;
+        lpWindow_inf.dimAmount = 0.8f;
+        getWindow().setAttributes(lpWindow_inf);
+
+ Dialogue 외부화면 흐리게 설정</code></pre>
+
+ - Dialog onCreateDialog(/MainActivity.java)
+ <pre><code> AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setTitle(“주제“);
+        builder.setItems(R.array.genre, new DialogInterface.OnClickListener() {
+          .
+          .
+          .
+          .
+        });
+      return builder.create();
+  }
+ customAlertdialog 생성 </code></pre>
+
+- SplashActivity (/SplashActivity.java)
+<pre><code>    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+
+       try{
+            Thread.sleep(3000); //로딩화면 뜨는 시간 (1000 = 1초)
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+        startActivity(new Intent(this,MainActivity.class));
+        finish();
+    }
+
+    로딩화면 시간 설정 </code></pre>
+
+### 4. manifests
+- Icon (roundIcon) : 앱의 아이콘 설정
+ <!-- splash activity -->
+       *
+        <activity>
+            android:name=“.SplashActivity”
+            android:screenOrientation=“portrait”
+            android:theme=“@style/SplashTheme”>
+            <intent-filter>
+                <action android:name=“android.intent.action.MAIN” />
+
+               <category android:name=“android.intent.category.LAUNCHER” />
+            </intent-filter>
+        </activity>
+
+        * 로딩화면 구현을 위해 추가되어야 할 코드
+</code>
