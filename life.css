@@ -4,13 +4,18 @@
 }
 
 body {
-
-  background-color:black;
-
+/*
+  background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+*/
+  background-color: black;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
   margin-top: 30px;
 }
+
 
 .slide-container {
   margin: auto;
@@ -22,17 +27,13 @@ body {
 @media screen and (max-width: 600px) {
   .slide-container {
     width: 300px;
-    height: 200px;
+    height: 300px;
   }
   .slide-container img{
+    height: 300px;
     width: 300px !important;
-    height: 360px;
     top: 0 !important;
-    left: 0 !important;
-    position: absolute;
-  }
-  .clash-card__image--econo1 img{
-    height: 300px;      
+    left: 5px !important;
   }
   .slick-prev {
     left: -25px !important; 
@@ -47,6 +48,7 @@ body {
   }
 
 }
+
 
 .wrapper {
   padding-top: 40px;
@@ -69,68 +71,103 @@ body {
 .clash-card__image {
   position: relative;
   text-align: center;
-  height: 400px;
+  height: 500px;
+  width: 350px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
 }
 
-.clash-card__image--econo1 img {
-  width: 400px;
-  top: 20px;
-  left: -50px;
-  position: absolute;
-
-}
-
-.clash-card__image--econo2 img {
-  width: 400px;
-  top: -20px;
-  left: -50px;
-  position: absolute;
-
-}
-
-.clash-card__image--econo3 img {
-  width: 400px;
-  top: -20px;
-  left: -50px;
-  position: absolute;
-
-}
-
-.clash-card__image--econo4 img {
-  width: 400px;
-  top: -20px;
-  left: -50px;
-  position: absolute;
-
-}
-
-.clash-card__image--econo5 img {
+.clash-card__image--life1 img {
   width: 400px;
   top: -20px;
   left: -50px;
   position: absolute;
 }
 
-.clash-card__image--econo6 img {
+.clash-card__image--life2 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life3 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life4 img {
   width: 400px;
   top: -20px;
   left: -50px;
   position: absolute;
 }
 
-.clash-card__image--econo7 img {
+.clash-card__image--life5 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
 
-.clash-card__image--econo8 img {
+.clash-card__image--life6 img {
   width: 400px;
-  top: -20px;
+  top: 0px;
   left: -50px;
   position: absolute;
 }
+
+.clash-card__image--life7 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life8 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life9 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life10 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life11 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life12 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
+.clash-card__image--life13 img {
+  width: 400px;
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+
 
 .clearfix:after {
   visibility: hidden;
