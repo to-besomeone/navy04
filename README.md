@@ -66,7 +66,7 @@ navy04.apk 를 다운받아 이용해 주십시오.
         lpWindow_inf.dimAmount = 0.8f;
         getWindow().setAttributes(lpWindow_inf);
 
- Dialogue 외부화면 흐리게 설정</code></pre>
+  * Dialogue 외부화면 흐리게 설정</code></pre>
 
  - Dialog onCreateDialog(/MainActivity.java)
  <pre><code> AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
@@ -79,7 +79,8 @@ navy04.apk 를 다운받아 이용해 주십시오.
         });
       return builder.create();
   }
- customAlertdialog 생성 </code></pre>
+
+   * customAlertdialog 생성 </code></pre>
 
 - SplashActivity (/SplashActivity.java)
 <pre><code>    protected void onCreate(Bundle savedInstanceState){
@@ -94,7 +95,7 @@ navy04.apk 를 다운받아 이용해 주십시오.
         finish();
     }
 
-    로딩화면 시간 설정 </code></pre>
+  * 로딩화면 시간 설정 </code></pre>
 
 ### 4. manifests
 - Icon (roundIcon) : 앱의 아이콘 설정
